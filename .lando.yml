@@ -1,0 +1,14 @@
+name: user-crud
+recipe: laravel
+config:
+  webroot: public
+  php: '8.1'
+  via: apache
+  database: mysql:8.0
+  cache: redis
+
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
